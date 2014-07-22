@@ -1,0 +1,466 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>安装和使用Hexo | 晴月浩雪站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="vrmanx">
+    
+    <meta name="description" content="准备工作
+安装nodejs
+安装nodejs，详细安装指南请参考这里
+
+Hexo是需要nodejs环境才能运行，所以在安装Hexo之前请安装好nodejs。
+
+安装和配置msysgit
+安装msysgit，详细安装方法请参考这里。
+
+Hexo的各种主题都是通过Git来扩展、安装和定制分享的，所以正式">
+    
+    
+    
+    
+    <link rel="alternative" href="/atom.xml" title="晴月浩雪站" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="晴月浩雪站" title="晴月浩雪站"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="晴月浩雪站">晴月浩雪站</a></h1>
+				<h2 class="blog-motto">晴月浩新雪，霜狼啸苍天</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:vrmanx.github.io/">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2014/07/23/折腾/hexo/安装和使用Hexo/" title="安装和使用Hexo" itemprop="url">安装和使用Hexo</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="http://vrmanx.github.io//about" title="vrmanx" target="_blank" itemprop="author">vrmanx</a>
+		
+  <p class="article-time">
+    <time datetime="2014-07-22T23:04:33.000Z" itemprop="datePublished">发表于 7月 23 2014</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#准备工作"><span class="toc-number">1.</span> <span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装nodejs"><span class="toc-number">1.1.</span> <span class="toc-text">安装nodejs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装和配置msysgit"><span class="toc-number">1.2.</span> <span class="toc-text">安装和配置msysgit</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注册Github账号（可选）"><span class="toc-number">1.3.</span> <span class="toc-text">注册Github账号（可选）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装Hexo"><span class="toc-number">2.</span> <span class="toc-text">安装Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用Hexo"><span class="toc-number">3.</span> <span class="toc-text">使用Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#初始化博客"><span class="toc-number">3.1.</span> <span class="toc-text">初始化博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#创建博文"><span class="toc-number">3.2.</span> <span class="toc-text">创建博文</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成静态页面"><span class="toc-number">3.3.</span> <span class="toc-text">生成静态页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#预览博客"><span class="toc-number">3.4.</span> <span class="toc-text">预览博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#发布博客"><span class="toc-number">3.5.</span> <span class="toc-text">发布博客</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<h2 id="准备工作">准备工作</h2>
+<h3 id="安装nodejs">安装nodejs</h3>
+<p>安装nodejs，详细安装指南请参考<a href="">这里</a></p>
+<blockquote>
+<p>Hexo是需要nodejs环境才能运行，所以在安装Hexo之前请安装好nodejs。</p>
+</blockquote>
+<h3 id="安装和配置msysgit">安装和配置msysgit</h3>
+<p>安装msysgit，详细安装方法请参考<a href="">这里</a>。</p>
+<blockquote>
+<p>Hexo的各种主题都是通过Git来扩展、安装和定制分享的，所以正式使用hexo之前请先准备好git环境。<br>msysgit是一个运行在windows上的非常完整的git bash命令行环境，简单好用。 </p>
+</blockquote>
+<p>为了让msysgit更好的支持中文，请在安装结束后，手工修改如下配置： </p>
+<ul>
+<li>在git-completion.bash文件结尾，添加</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">alias</span> ls=<span class="attribute">'ls</span> <span class="comment">--show-control-chars --color=auto'</span></div></pre></td></tr></table></figure>
+
+<ul>
+<li>在gitconfig文件结尾，添加 </li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="title">[gui]</span></div><div class="line"><span class="setting">encoding = <span class="value">utf-<span class="number">8</span></span></span></div><div class="line"><span class="title">[i18n]</span></div><div class="line"><span class="setting">commitencoding = <span class="value">utf-<span class="number">8</span></span></span></div><div class="line"><span class="setting">logoutputencoding = <span class="value">gbk</span></span></div></pre></td></tr></table></figure>
+
+<ul>
+<li>在profile文件结尾，添加 </li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">export</span> LESSCHARSET=utf-<span class="number">8</span></div></pre></td></tr></table></figure>
+
+<h3 id="注册Github账号（可选）">注册Github账号（可选）</h3>
+<p>如果你想把静态博客托管在Github Page上，那么最好立刻注册一个Github账号，详细安装方法请参考<a href="">这里</a></p>
+<p>如果你想定制和分享Hexo的主题，或者希望使用Github提供的免费静态博客服务，那么最好先注册一个github账户。</p>
+<h2 id="安装Hexo">安装Hexo</h2>
+<p>安装hexo，详细安装方法请参考<a href="">这里</a></p>
+<p>打开nodejs命令行界面，输入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">	npm install -g hexo</div></pre></td></tr></table></figure>
+
+<h2 id="使用Hexo">使用Hexo</h2>
+<h3 id="初始化博客">初始化博客</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> hexo-blog-root</div><div class="line">$ hexo init</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+
+<h3 id="创建博文">创建博文</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new blog-title-here</div></pre></td></tr></table></figure>
+
+<h3 id="生成静态页面">生成静态页面</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g</div></pre></td></tr></table></figure>
+
+<h3 id="预览博客">预览博客</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
+
+<h3 id="发布博客">发布博客</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo d</div></pre></td></tr></table></figure>
+  
+	</div>
+		<footer class="article-footer clearfix">
+
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/折腾/">折腾</a>
+</div>
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/hexo/">hexo</a>
+  </div>
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://vrmanx.github.io/2014/07/23/折腾/hexo/安装和使用Hexo/" data-title="安装和使用Hexo | 晴月浩雪站" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2014/07/23/折腾/hexo/SublimeText与Markdown/" title="SublimeText与Markdown">
+  <strong>上一篇：</strong><br/>
+  <span>
+  SublimeText与Markdown</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2014/07/23/折腾/hexo/静态博客简介/"  title="静态博客简介">
+ <strong>下一篇：</strong><br/> 
+ <span>静态博客简介
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section class="comment">
+	<div class="ds-thread"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#准备工作"><span class="toc-number">1.</span> <span class="toc-text">准备工作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装nodejs"><span class="toc-number">1.1.</span> <span class="toc-text">安装nodejs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装和配置msysgit"><span class="toc-number">1.2.</span> <span class="toc-text">安装和配置msysgit</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注册Github账号（可选）"><span class="toc-number">1.3.</span> <span class="toc-text">注册Github账号（可选）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装Hexo"><span class="toc-number">2.</span> <span class="toc-text">安装Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用Hexo"><span class="toc-number">3.</span> <span class="toc-text">使用Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#初始化博客"><span class="toc-number">3.1.</span> <span class="toc-text">初始化博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#创建博文"><span class="toc-number">3.2.</span> <span class="toc-text">创建博文</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成静态页面"><span class="toc-number">3.3.</span> <span class="toc-text">生成静态页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#预览博客"><span class="toc-number">3.4.</span> <span class="toc-text">预览博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#发布博客"><span class="toc-number">3.5.</span> <span class="toc-text">发布博客</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+			<li><a href="/categories/折腾/hexo/" title="hexo">hexo<sup>3</sup></a></li>
+		
+			<li><a href="/categories/折腾/" title="折腾">折腾<sup>10</sup></a></li>
+		
+			<li><a href="/categories/折腾,-hexo/" title="折腾, hexo">折腾, hexo<sup>0</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/hexo/" title="hexo">hexo<sup>10</sup></a></li>
+		
+			<li><a href="/tags/blog/" title="blog">blog<sup>3</sup></a></li>
+		
+			<li><a href="/tags/hexo,-blog/" title="hexo, blog">hexo, blog<sup>0</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+    <!--
+      <li><a href="http://yangjian.me" target="_blank" title="YangJian">Alimon's Blog</a></li>
+      <li><a href="http://zipperary.com/" target="_blank" title="zippera">Zippera's Blog</a></li>
+      <li><a href="http://brotherb.info/" target="_blank" title="brotherb">Spike's Blog</a></li>
+      <li><a href="http://hijiangtao.github.io/" target="_blank" title="JiangTao">Data.Blog</a></li>
+    -->
+    </ul>
+</div>
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font" class="clearfix">
+		
+		
+		<a href="https://github.com/vrmanx" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		
+		
+		
+		
+		<a href="mailto:vrmanx@qq.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2014 
+		
+		<a href="http://vrmanx.github.io//about" target="_blank" title="vrmanx">vrmanx</a>
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"vrman"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<div id="totop">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
+
+<script type="text/x-mathjax-config"> 
+MathJax.Hub.Config({ 
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} 
+}); 
+</script>
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+  </body>
+</html>

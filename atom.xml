@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[晴月浩雪站]]></title>
+  <subtitle><![CDATA[晴月浩新雪，霜狼啸苍天]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://vrmanx.github.io//"/>
+  <updated>2014-07-22T14:26:47.052Z</updated>
+  <id>http://vrmanx.github.io//</id>
+  
+  <author>
+    <name><![CDATA[vrmanx]]></name>
+    <email><![CDATA[vrmanx@qq.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[熟悉Markdown]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/%E7%86%9F%E6%82%89Markdown/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/熟悉Markdown/</id>
+    <published>2014-07-23T05:08:03.000Z</published>
+    <updated>2014-07-22T13:11:02.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[什么是静态博客]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/%E4%BB%80%E4%B9%88%E6%98%AF%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/什么是静态博客/</id>
+    <published>2014-07-23T05:07:29.000Z</published>
+    <updated>2014-07-22T13:07:30.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Markdown简介]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/Markdown%E7%AE%80%E4%BB%8B/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/Markdown简介/</id>
+    <published>2014-07-23T05:07:01.000Z</published>
+    <updated>2014-07-22T13:10:24.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[为什么要写博客]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/为什么要写博客/</id>
+    <published>2014-07-23T05:06:41.000Z</published>
+    <updated>2014-07-22T13:11:24.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[折腾Hexo博客（系列笔记）]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/%E6%8A%98%E8%85%BEHexo%E5%8D%9A%E5%AE%A2%EF%BC%88%E7%B3%BB%E5%88%97%E7%AC%94%E8%AE%B0%EF%BC%89/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/折腾Hexo博客（系列笔记）/</id>
+    <published>2014-07-23T04:05:46.000Z</published>
+    <updated>2014-07-22T13:54:28.000Z</updated>
+    <content type="html"><![CDATA[<p>近来突发奇想打算写点博客。正所谓“工欲善其事、必先利其器”，先找个趁手的工具再说。尝试了很多不同的方式，最后发现Hexo最适合自己。下面是我用Hexo建站的一系列笔记。</p>
+<h2 id="科普篇">科普篇</h2>
+<ul>
+<li><a href="">为什么要写博客</a></li>
+<li><a href="">什么是静态博客</a></li>
+<li><a href="">Markdown简介</a></li>
+</ul>
+<h2 id="入门篇">入门篇</h2>
+<ul>
+<li><a href="tbd">安装和使用hexo</a></li>
+<li><a href="tbd">认识hexo的目录结构</a></li>
+<li><a href="tbd">安装和配置pacman主题</a></li>
+<li><a href="tbd">发布hexo到Github</a></li>
+</ul>
+<h2 id="写作篇">写作篇</h2>
+<ul>
+<li><a href="tbd">熟悉Markdown</a></li>
+<li><a href="tbd">标签和分类</a></li>
+<li><a href="tbd">文章摘要</a></li>
+<li><a href="tbd">代码语法高亮</a></li>
+<li><a href="tbd">mathjax数学公式</a></li>
+</ul>
+<h2 id="进阶篇">进阶篇</h2>
+<ul>
+<li><a href="tbd">配置多说评论</a></li>
+<li><a href="tbd">配置RSS订阅</a></li>
+<li><a href="tbd">发布hexo到七牛</a></li>
+<li><a href="tbd">同步备份hexo到百度云</a></li>
+<li><a href="tbd">配置百度统计</a></li>
+<li><a href="tbd">配置站内搜索</a></li>
+<li><a href="tbd">使用fancybox</a></li>
+</ul>
+<h2 id="资料分享">资料分享</h2>
+<p><em>tbd</em></p>
+]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="blog" scheme="http://vrmanx.github.io/tags/blog/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[配置hexo的主题]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/%E9%85%8D%E7%BD%AEhexo%E7%9A%84%E4%B8%BB%E9%A2%98/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/配置hexo的主题/</id>
+    <published>2014-07-23T04:05:46.000Z</published>
+    <updated>2014-07-22T13:10:50.000Z</updated>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo博客折腾笔记]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/Hexo%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/Hexo博客折腾笔记/</id>
+    <published>2014-07-23T04:05:46.000Z</published>
+    <updated>2014-07-22T12:54:02.000Z</updated>
+    <content type="html"><![CDATA[<p>近来突发奇想打算写点博客。正所谓“工欲善其事、必先利其器”，先找个趁手的工具再说。尝试了很多不同的方式，最后发现Hexo最适合自己。下面是我用Hexo建站的一系列笔记。</p>
+<h2 id="科普篇">科普篇</h2>
+<ul>
+<li><a href="tbd">写博客有什么好处</a></li>
+<li><a href="tbd">写博客有什么好处</a></li>
+<li><a href="">静态博客简介</a></li>
+</ul>
+<h2 id="入门篇">入门篇</h2>
+<ul>
+<li><a href="">SublimeText与Markdown</a></li>
+<li><a href="">安装和使用Hexo</a></li>
+<li><a href="">配置Hexo的主题</a></li>
+<li><a href="">发布Hexo博客到Github</a></li>
+<li><a href="">Hexo和七牛、百度云</a></li>
+</ul>
+<h2 id="进阶篇">进阶篇</h2>
+<h2 id="资料分享">资料分享</h2>
+<p>最后是我近来收集的一些关于Hexo和静态博客的资料，请有兴趣的朋友阅读。</p>
+<ul>
+<li><a href="">hexo.io</a></li>
+<li><a href="">hexo.github</a></li>
+</ul>
+]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="blog" scheme="http://vrmanx.github.io/tags/blog/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo静态博客折腾笔记]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/%E6%8A%98%E8%85%BEHexo%E5%8D%9A%E5%AE%A2%EF%BC%88%E7%AC%94%E8%AE%B0%EF%BC%89/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/折腾Hexo博客（笔记）/</id>
+    <published>2014-07-23T04:05:46.000Z</published>
+    <updated>2014-07-22T12:47:42.000Z</updated>
+    <content type="html"><![CDATA[<p>近来突发奇想打算写点博客。正所谓“工欲善其事、必先利其器”，先找个趁手的工具再说。尝试了很多不同的方式，最后发现Hexo最适合自己。下面是我用Hexo建站的一系列笔记。</p>
+<h2 id="科普篇">科普篇</h2>
+<ul>
+<li><a href="">静态博客简介</a></li>
+</ul>
+<h2 id="入门篇">入门篇</h2>
+<ul>
+<li><a href="">SublimeText与Markdown</a></li>
+<li><a href="">安装和使用Hexo</a></li>
+<li><a href="">配置Hexo的主题</a></li>
+<li><a href="">发布Hexo博客到Github</a></li>
+<li><a href="">Hexo和七牛、百度云</a></li>
+</ul>
+<h2 id="进阶篇">进阶篇</h2>
+<h2 id="资料分享">资料分享</h2>
+<p>最后是我近来收集的一些关于Hexo和静态博客的资料，请有兴趣的朋友阅读。</p>
+<ul>
+<li><a href="">hexo.io</a></li>
+<li><a href="">hexo.github</a></li>
+</ul>
+]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="blog" scheme="http://vrmanx.github.io/tags/blog/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[SublimeText与Markdown]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/SublimeText%E4%B8%8EMarkdown/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/SublimeText与Markdown/</id>
+    <published>2014-07-22T23:04:33.000Z</published>
+    <updated>2014-07-22T13:09:42.000Z</updated>
+    <content type="html"><![CDATA[<p>Sublime Text是一个非常有特点的文本编辑器，小巧、强大、跨平台，非常好用。有多好用呢？这么说吧，到目前位置，在我经常向大家推荐的软件里，Sublime Text是唯一一个闭源而且收费软件。它不但收费，而且授权费还很贵，要70美金之多。好在作者还是非常厚道的，为大家提供了无限期、不限制功能的免费的试用版本。</p>
+<blockquote>
+<p>对普通用户来说，完全可以把Sublime Text当作一个界面友好、速度很快的小巧的纯文本编辑器（替代notepad）<br>对动手能力强一些的码农们，如果你不喜欢IDE的话，就可以发挥各自的想象力，把它配置成适合各种场合的开发环境</p>
+</blockquote>
+<p>如果你想进一步了解Sublime Text，请访问<a href="http://www.sublimetext.com/" target="_blank" rel="external">这里</a></p>
+<p><img src="http://upload.wikimedia.org/wikipedia/zh/thumb/d/d5/Sublime_Text_3.png/280px-Sublime_Text_3.png" alt="Sublime"></p>
+<p>今天，我们主要介绍如何安装和配置sublime，让它成为一个更好的markdown编辑器。</p>
+<h2 id="安装Sublime_Text">安装Sublime Text</h2>
+<p>如果你想安装Sublime Text，可以选择ST2（稳定版）或ST3（Beta测试版）。两个版本对普通使用来说差别不大，ST3的稳定性也还是不错的。</p>
+<blockquote>
+<p><a href="http://www.sublimetext.com/2" target="_blank" rel="external">ST3下载</a><br><a href="http://www.sublimetext.com/3" target="_blank" rel="external">ST2下载</a></p>
+</blockquote>
+<p>如果你想了解ST3的新增功能，请访问<a href="http://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings" target="_blank" rel="external">这里</a>。</p>
+<h2 id="安装Package_Control">安装Package Control</h2>
+<p>Sublime Text之所以深受很多程序员喜爱，其中一个原因就是<a href="https://sublime.wbond.net/" target="_blank" rel="external">Package Control</a>机制所带来的异常强大的可配置性。Package Control支持自动安装和手动安装两种方法，在ST2和ST3下也略有差别。具体安装方法请参考下面的链接：</p>
+<blockquote>
+<p><a href="https://sublime.wbond.net/installation#st3" target="_blank" rel="external">安装ST3的Package Control</a><br><a href="https://sublime.wbond.net/installation#st2" target="_blank" rel="external">安装ST2的Package Control</a></p>
+</blockquote>
+<p><em>注意，安装完package control之后需要重启sublime text</em></p>
+<p>安装Package Control之后，就可以通过快捷键（CTRL+SHIFT+P, windows/linux)使用强大的包管理命令了。有关Package Control的具体用法，请参考<a href="https://sublime.wbond.net/docs/usage" target="_blank" rel="external">这里</a>。</p>
+<h2 id="配置Markdown语法高亮">配置Markdown语法高亮</h2>
+<p>默认的Sublime Text并不支持markdown语法，我们可以通过package control来安装两个有关的插件。</p>
+<blockquote>
+<p><a href="https://github.com/jonschlinkert/sublime-monokai-extended" target="_blank" rel="external">安装Monokai Extended</a><br><a href="https://github.com/jonschlinkert/sublime-markdown-extended" target="_blank" rel="external">安装Markdown-extended</a></p>
+</blockquote>
+<p>安装后，打开md文件时就可以看到语法增强的显示效果。<br><img src="https://camo.githubusercontent.com/ba90cc07a9caed8a0ab4a2a7f7bef6b102e7cadb/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3338333939342f3831303239332f39643163326230612d656562312d313165322d396364332d3333666265306135633861332e706e67" alt="markdown语法高亮"></p>
+]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[安装和使用Hexo]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8Hexo/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/安装和使用Hexo/</id>
+    <published>2014-07-22T23:04:33.000Z</published>
+    <updated>2014-07-22T13:10:36.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="准备工作">准备工作</h2>
+<h3 id="安装nodejs">安装nodejs</h3>
+<p>安装nodejs，详细安装指南请参考<a href="">这里</a></p>
+<blockquote>
+<p>Hexo是需要nodejs环境才能运行，所以在安装Hexo之前请安装好nodejs。</p>
+</blockquote>
+<h3 id="安装和配置msysgit">安装和配置msysgit</h3>
+<p>安装msysgit，详细安装方法请参考<a href="">这里</a>。</p>
+<blockquote>
+<p>Hexo的各种主题都是通过Git来扩展、安装和定制分享的，所以正式使用hexo之前请先准备好git环境。<br>msysgit是一个运行在windows上的非常完整的git bash命令行环境，简单好用。 </p>
+</blockquote>
+<p>为了让msysgit更好的支持中文，请在安装结束后，手工修改如下配置： </p>
+<ul>
+<li>在git-completion.bash文件结尾，添加</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">alias</span> ls=<span class="attribute">'ls</span> <span class="comment">--show-control-chars --color=auto'</span></div></pre></td></tr></table></figure>
+
+<ul>
+<li>在gitconfig文件结尾，添加 </li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="title">[gui]</span></div><div class="line"><span class="setting">encoding = <span class="value">utf-<span class="number">8</span></span></span></div><div class="line"><span class="title">[i18n]</span></div><div class="line"><span class="setting">commitencoding = <span class="value">utf-<span class="number">8</span></span></span></div><div class="line"><span class="setting">logoutputencoding = <span class="value">gbk</span></span></div></pre></td></tr></table></figure>
+
+<ul>
+<li>在profile文件结尾，添加 </li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">export</span> LESSCHARSET=utf-<span class="number">8</span></div></pre></td></tr></table></figure>
+
+<h3 id="注册Github账号（可选）">注册Github账号（可选）</h3>
+<p>如果你想把静态博客托管在Github Page上，那么最好立刻注册一个Github账号，详细安装方法请参考<a href="">这里</a></p>
+<p>如果你想定制和分享Hexo的主题，或者希望使用Github提供的免费静态博客服务，那么最好先注册一个github账户。</p>
+<h2 id="安装Hexo">安装Hexo</h2>
+<p>安装hexo，详细安装方法请参考<a href="">这里</a></p>
+<p>打开nodejs命令行界面，输入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">	npm install -g hexo</div></pre></td></tr></table></figure>
+
+<h2 id="使用Hexo">使用Hexo</h2>
+<h3 id="初始化博客">初始化博客</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> hexo-blog-root</div><div class="line">$ hexo init</div><div class="line">$ npm install</div></pre></td></tr></table></figure>
+
+<h3 id="创建博文">创建博文</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new blog-title-here</div></pre></td></tr></table></figure>
+
+<h3 id="生成静态页面">生成静态页面</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo g</div></pre></td></tr></table></figure>
+
+<h3 id="预览博客">预览博客</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo s</div></pre></td></tr></table></figure>
+
+<h3 id="发布博客">发布博客</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo d</div></pre></td></tr></table></figure>
+]]></content>
+    
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[静态博客简介]]></title>
+    <link href="http://vrmanx.github.io/2014/07/23/%E6%8A%98%E8%85%BE/hexo/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/"/>
+    <id>http://vrmanx.github.io/2014/07/23/折腾/hexo/静态博客简介/</id>
+    <published>2014-07-22T18:31:23.000Z</published>
+    <updated>2014-07-22T13:10:12.000Z</updated>
+    <content type="html"><![CDATA[<p>在静态博客出现之前，更多的人选择的是传统的动态博客。传统的动态博客一般有2种常见的方法：</p>
+<ul>
+<li>自建博客网站：需要了解数据库、HTML/CSS和PHP等很多Web编程知识 </li>
+<li>注册公共博客：一般要受制于公共博客服务提供商的博客创作工具的写作效率 </li>
+</ul>
+<p>实际上大部分博主写博客仅仅是个人性质的，文章数量不多，流量也不大，所以并不需要自己建站那么复杂。但如果注册公共博客，又会非常依赖服务提供商所提供的主题、功能和写作工具，缺少自由度。静态博客就可以很好的弥补两者的缺点。静态博客和传统博客最大的区别就在于写作与发布的过程有所不同。</p>
+<ul>
+<li>静态博客首先会在本地进行离线写作，然后通过工具将离线本地作品转化为HTML网页发布到在线网站上 </li>
+<li>动态博客首先要建立网站（当然也可以注册一个公共博客服务），然后在线完成博客的编辑和发布 </li>
+</ul>
+<p>静态博客可以让博主更专注于写作，而不是花费很多精力在建站技术和写作工具上：</p>
+<ul>
+<li>博主不需要折腾各种建站技术，任何支持静态网页的主机空间和云存储空间都可以拿来发布博客 </li>
+<li>博主可以自由选择自己喜欢的本地写作工具，而不需要受制于在线博客写作工具的质量火热用户体验 </li>
+</ul>
+<a id="more"></a>
+
+<h2 id="Markdown简介">Markdown简介</h2>
+<p>HTML虽然展示效果很炫，但非常不利于人们阅读和书写。因此，约翰·格鲁伯（John Gruber）发明了markdown这种轻量级的标记语言。Markdown语法简单、易于掌握，也可以很友好的阅读和书写，又可以方便的转化为HTML或XHTML文档发布到互联网上。目前，几乎所有的主流静态博客平台都支持人们使用markdown来创作，然后搭配特定的网站主题用各自的平台来渲染成静态HTML页面并发布出去。目前，至少有几十种主流的编程语言都可以支持Markdown语法的解析和转换，在各种客户端系统和在线系统中也有大量的编辑器可供使用。</p>
+<p>如果你想了解Markdown的语法，请访问<a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">这里</a>。实际上markdown语法已经发展出来很多变种，比如Github和Stack overflow都有一个各自特色的扩展语法。</p>
+<p>如果你想进一步了解markdown，请阅读以下文章：</p>
+<ul>
+<li><a href="http://jianshu.io/p/qqGjLN" target="_blank" rel="external">为什么作家应该用 Markdown 保存自己的文稿</a> </li>
+<li><a href="http://jianshu.io/p/q81RER" target="_blank" rel="external">献给写作者的 Markdown 新手指南</a></li>
+<li><a href="http://jianshu.io/p/PpDNMG" target="_blank" rel="external">Markdown写作浅谈</a> </li>
+</ul>
+<h2 id="Github与静态博客">Github与静态博客</h2>
+<p>静态博客是个新生事物。静态博客的流行跟著名的开源社区Github的支持是分不开的。因此，绝大部分静态博客平台设计得还是比较极客，更适合有一定编程技能的人来使用，并不适合完全零起点的完全没有编程知识的普通用户。而Github除提供在线Markdown编辑器之外，还提供了Github Page服务，可以将用户托管在Github上的Markdown博客发布为静态网站。博主完全可以将自己的博客站免费寄放在Github上。此外，通过Github发布博客，还有一个额外的好处，那就是你的博客文章可以用Git来管理，这样你就可以在Github上获得博客文章的完整发布历史（像程序员管理源代码一样），并且可以随时获取历史版本或回退和回退到特定的版本上，相当于有了强大的备份系统。</p>
+]]></content>
+    <summary type="html"><![CDATA[<p>在静态博客出现之前，更多的人选择的是传统的动态博客。传统的动态博客一般有2种常见的方法：</p>
+<ul>
+<li>自建博客网站：需要了解数据库、HTML/CSS和PHP等很多Web编程知识 </li>
+<li>注册公共博客：一般要受制于公共博客服务提供商的博客创作工具的写作效率 </li>
+</ul>
+<p>实际上大部分博主写博客仅仅是个人性质的，文章数量不多，流量也不大，所以并不需要自己建站那么复杂。但如果注册公共博客，又会非常依赖服务提供商所提供的主题、功能和写作工具，缺少自由度。静态博客就可以很好的弥补两者的缺点。静态博客和传统博客最大的区别就在于写作与发布的过程有所不同。</p>
+<ul>
+<li>静态博客首先会在本地进行离线写作，然后通过工具将离线本地作品转化为HTML网页发布到在线网站上 </li>
+<li>动态博客首先要建立网站（当然也可以注册一个公共博客服务），然后在线完成博客的编辑和发布 </li>
+</ul>
+<p>静态博客可以让博主更专注于写作，而不是花费很多精力在建站技术和写作工具上：</p>
+<ul>
+<li>博主不需要折腾各种建站技术，任何支持静态网页的主机空间和云存储空间都可以拿来发布博客 </li>
+<li>博主可以自由选择自己喜欢的本地写作工具，而不需要受制于在线博客写作工具的质量火热用户体验 </li>
+</ul>
+]]></summary>
+    
+      <category term="hexo" scheme="http://vrmanx.github.io/tags/hexo/"/>
+    
+      <category term="折腾" scheme="http://vrmanx.github.io/categories/%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[]]></title>
+    <link href="http://vrmanx.github.io/2014/07/17/%E6%8A%98%E8%85%BE/hexo/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/"/>
+    <id>http://vrmanx.github.io/2014/07/17/折腾/hexo/Hexo静态博客折腾笔记/</id>
+    <published>2014-07-17T07:00:21.000Z</published>
+    <updated>2014-07-21T11:14:52.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="折腾Hexo静态博客">折腾Hexo静态博客</h1>
+<p>近来突发奇想写点博客。正所谓“工欲善其事、必先利其器”，先找个趁手的工具再说。尝试了很多不同的方法，最后选择Hexo来搭建自己的静态博客。</p>
+<p>下面是我用Hexo建站全过程的一系列笔记和，和分享一下心得体会。</p>
+<ul>
+<li><a href="">静态博客简介</a></li>
+<li><a href="">SublimeText与Markdown</a></li>
+<li><a href="">安装和使用Hexo</a></li>
+<li><a href="">配置Hexo的主题</a></li>
+<li><a href="">发布Hexo博客到Github</a></li>
+<li><a href="">Hexo和七牛、百度云</a></li>
+</ul>
+<p>最后是我近来收集的一些关于Hexo和静态博客的资料，请有兴趣的朋友阅读。</p>
+<ul>
+<li><a href="">hexo.io</a></li>
+<li><a href="">hexo.github</a></li>
+</ul>
+]]></content>
+    
+    
+  </entry>
+  
+</feed>
